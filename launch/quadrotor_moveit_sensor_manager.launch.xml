@@ -1,0 +1,7 @@
+<launch>
+	<param name="octomap_frame" type="string" value="world" />
+	<param name="octomap_resolution" type="double" value="0.2" />
+
+    <rosparam command="load" file="$(find quadrotor_simulation)/config/sensors_rgbd.yaml" />
+
+</launch>
